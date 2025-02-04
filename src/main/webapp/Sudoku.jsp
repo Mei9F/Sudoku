@@ -10,6 +10,24 @@
 </head>
 <body>
 <h1>ナンバープレイス自動回答システム</h1>
-hello
+<%
+	int height = 0;
+	int width = 0;
+	for(int i = 0;i < 9;i++){
+%>
+	<div>
+<%
+		for(int j = 0;j < 9;j++){
+%>
+			<input type="text" style="height:40px;
+				width:40px;
+				"></input>
+<%
+		}
+%>
+	</div>
+<%
+	}
+%>
 </body>
 </html>
